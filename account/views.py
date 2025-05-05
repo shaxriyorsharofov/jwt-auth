@@ -66,3 +66,8 @@ class Logout(APIView):
         return Response({
             'msg': "Tizimdan chiqdingiz"
         })
+
+
+class Test2(APIView):
+    def get(self):
+        return Response({"msg":"Nimadir"})
